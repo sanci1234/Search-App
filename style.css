@@ -1,0 +1,67 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+.button-wrapper{
+    margin: 10px 0px;
+}
+#searchButton{
+    width: 110px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+    color: #fff;
+    box-shadow: 2px 3px 8px black;
+    border: none;
+}
+#clearButton{
+    width: 110px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    box-shadow: 2px 3px 8px black;
+    border: none;
+}
+.imageList-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imageList-wrapper > .card{
+    margin:20px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 2px 4px 7px rgb(15, 15, 15);
+}
